@@ -3,7 +3,7 @@ const emailInput = document.getElementById('email');
 const response = document.getElementById('response');
 
 form.addEventListener('submit', function(e) {
-  e.preventDefault(); 
+  e.preventDefault();
 
   const email = emailInput.value;
 
@@ -13,6 +13,6 @@ form.addEventListener('submit', function(e) {
   } else {
     response.textContent = "Ďakujeme! Tvoja správa bola odoslaná.";
     response.style.color = 'green';
-    form.reset(); 
+    form.reset();
   }
 });
